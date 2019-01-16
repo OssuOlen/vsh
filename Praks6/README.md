@@ -17,6 +17,8 @@ sisestasin need käsud mysqlis
 TEINE WORDPRESS SERVER----------
 Kasutasin installimiseks seda juhendit https://www.vpsserver.com/community/tutorials/30/installing-wordpress-on-debian-8-server/
 läksin kausta cd /var/www/html/
+tegin apt install php7.0-*
+service apache2 restart
 tõmbasin sinna wget http://wordpress.org/latest.zip
 tõmbasin asja et seda unzippida saaksin sudo aptitude install unzip
 unzippisin file unzip -q latest.zip
