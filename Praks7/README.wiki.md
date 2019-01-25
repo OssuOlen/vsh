@@ -1,4 +1,5 @@
 DOKUWIKI
+Tegin enamus asju selle õpetuse järgi https://www.howtoforge.com/tutorial/debian-dokuwiki-apache-installation/
 kõigepealt sisestasin käsu apt-get update
 kirjutasin wget https://download.dokuwiki.org/src/dokuwiki/dokuwiki-stable.tgz
 Sain faili dokuwiki-stable.tgz
